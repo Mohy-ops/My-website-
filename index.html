@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة ويب بسيطة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في صفحتنا</h1>
+        <nav>
+            <a href="#">الرئيسية</a>
+            <a href="#">عنّا</a>
+            <a href="#">اتصل بنا</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>هذا مثال على صفحة ويب بسيطة</h2>
+        <p>يمكنك التعديل والإضافة حسب احتياجاتك.</p>
+        <button onclick="showMessage()">اضغط هنا</button>
+    </div>
+    <script>
+        function showMessage() {
+            alert("مرحبًا! شكرًا لزيارتك.");
+        }
+    </script>
+</body>
+</html>
